@@ -1,0 +1,3245 @@
+@media screen and (max-width: 1550px) and (min-width: 1440px) {
+    .square {
+        max-width: 379px;
+        max-height: 521px;
+    }
+
+    .circle-big {
+        margin-left: 112px;
+    }
+
+    .circle-big::after {
+        width: 125%;
+        left: 140px;
+    }
+
+    .circle-small {
+        margin-left: 426px;
+    }
+
+    .heart-description {
+        padding-left: 727px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1366px) {
+    .square {
+        max-width: 379px;
+    }
+
+    .circle-big {
+        margin-left: 112px;
+    }
+
+    .circle-big::after {
+        width: 125%;
+        left: 140px;
+    }
+
+    .circle-small {
+        margin-left: 426px;
+    }
+
+    .heart-description {
+        padding-left: 727px;
+    }
+
+    .volonteer-description {
+        padding-left: 768px;
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__1440.jpg) no-repeat;
+        width: 100%;
+        height: 741px;
+    }
+
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1270px) {
+    .square {
+        max-width: 343px;
+    }
+
+    .circle-big {
+        margin-left: 78px;
+    }
+
+    .circle-big::after {
+        width: 135%;
+        left: 106px;
+    }
+
+    .circle-small {
+        margin-left: 392px;
+    }
+
+    .heart-description {
+        padding-left: 693px;
+    }
+
+    .volonteer-description {
+        padding-left: 748px;
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__1366.jpg) no-repeat;
+        width: 100%;
+        height: 741px;
+    }
+
+    .image-block {
+        max-width: 450px;
+        height: 350px;
+        padding-top: 200px;
+        padding-left: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-block__text {
+        margin-left: 10px;
+        width: 350px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .image-paw__svg {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1269px) and (min-width: 1024px) {
+    .header__body {
+        max-width: 735px;
+        margin: 0 auto;
+    }
+
+    .header__nav {
+        max-width: 493px;
+    }
+
+    .nav-menu li:nth-child(2) {
+        padding-right: 50px;
+    }
+
+    .container {
+        max-width: 804px;
+    }
+
+    .container__body {
+        padding-left: 30px;
+        padding-top: 33px;
+    }
+
+    .save-title__goal {
+        max-width: 461px;
+        margin: 0px 0px;
+    }
+
+    .save-title__help {
+        max-width: 300px;
+    }
+
+    .dog__bcg {
+        height: 564px;
+        padding-left: 320px;
+    }
+
+    .cat__bcg {
+        width: 344px;
+        height: 326px;
+        top: 374px;
+        padding-left: 400px;
+    }
+
+    /* .container::before {
+        content: "";
+        position: absolute;
+        background: url(../img/dog-bcg__small.png) top right no-repeat;
+        height: 564px;
+        left: 340px;
+        right: 110px;
+        padding-left: 0px;
+    }
+
+    .container::after {
+        content: "";
+        position: absolute;
+        background: url(../img/cat-bcg.png) top right no-repeat;
+        width: 344px;
+        height: 326px;
+        top: 374px;
+        left: 623px;
+        right: 217px;
+        z-index: -1;
+    } */
+
+    .heart {
+        margin-top: 87px;
+    }
+
+    .heart-container {
+        display: flex;
+    }
+
+    .heart-block {
+        padding-top: 36px;
+        padding-bottom: 156px;
+    }
+
+    .square {
+        max-width: 267px;
+        max-height: 362px;
+        margin: 0 auto;
+    }
+
+    .circle-big {
+        width: 362px;
+        height: 362px;
+        margin-left: 87px;
+    }
+
+    .circle-big::after {
+        width: 120%;
+        background: url(../img/circle-dog__1024.png) no-repeat;
+        left: 106px;
+        top: 20px;
+    }
+
+    .circle-small::after {
+        background: url(../img/circle-cat__1024.png) no-repeat;
+        left: 6px;
+        top: 6px;
+    }
+
+    .circle-small {
+        width: 170px;
+        height: 170px;
+        margin-left: 298px;
+        margin-top: 241px;
+    }
+
+    .heart-description {
+        max-width: 323px;
+        padding-left: 522px;
+        padding-top: 67px;
+        padding-bottom: 36px;
+    }
+
+    .heart-title {
+        font-size: 24px;
+    }
+
+    .help-container {
+        padding-top: 64px;
+        max-width: 804px;
+        margin: 0 auto;
+    }
+
+    .help-title {
+        font-size: 24px;
+    }
+
+    .help-block {
+        grid-column-gap: 26px;
+        padding-top: 32px;
+    }
+
+    .help-block__item {
+        max-width: 140px;
+        max-height: 190px;
+    }
+
+    .block-link {
+        width: 110px;
+        height: 110px;
+    }
+
+    .help-block__img {
+        width: 61px;
+        height: 61px;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .help-block__text {
+        max-width: 140px;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    .home__separator {
+        margin-top: 54px;
+    }
+
+    .home-block {
+        padding-top: 40px;
+        max-width: 618px;
+        grid-column-gap: 69px;
+    }
+
+    .item-title {
+        font-size: 24px;
+    }
+
+    .home-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 68px;
+        grid-row-gap: 44px;
+        max-width: 804px;
+        padding-top: 24px;
+    }
+
+    .finance-wrapper {
+        margin: 0 auto;
+        height: 679px;
+    }
+
+    .finance__separator {
+        height: 86px;
+    }
+
+    .finance-body {
+        max-width: 618px;
+        height: 491px;
+    }
+
+    .finance-body__title {
+        font-size: 24px;
+    }
+
+    .finance-body__description {
+        max-width: 530px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .finance-pay {
+        max-width: 275px;
+        max-height: 255px;
+    }
+
+    .finance-pay__title {
+        font-size: 24px;
+    }
+
+    .finance-pay__text {
+        font-size: 14px;
+    }
+
+    .finance-box {
+        max-width: 274px;
+        max-height: 348px;
+    }
+
+    .finance-box__title {
+        font-size: 24px;
+    }
+
+    .finance-box__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .food-wrapper {
+        height: 844px;
+    }
+
+    .food__separator {
+        height: 68px;
+    }
+
+    .food-content {
+        max-width: 481px;
+        padding-top: 24px;
+    }
+
+    .content-feed {
+        max-width: 481px;
+    }
+
+    .content-feed__title {
+        font-size: 24px;
+    }
+
+    .content-medicine {
+        max-width: 481px;
+    }
+
+    .content-medicine__title {
+        font-size: 24px;
+    }
+
+    .content-staff {
+        max-width: 481px;
+    }
+
+    .content-staff__title {
+        font-size: 24px;
+    }
+
+    .car__separator {
+        height: 115px;
+    }
+
+    .car-block {
+        max-width: 680px;
+    }
+
+    .volonteer-wrapper {
+        padding-top: 150px;
+        height: 630px;
+    }
+
+    .circle-big::after {
+        content: "";
+        position: absolute;
+        background: url(../img/little-dog__1269.png) no-repeat;
+        width: 132%;
+        height: 100%;
+        left: 80px;
+        top: 8px;
+        z-index: 1;
+    }
+
+    .square {
+        margin-top: 24px;
+    }
+    
+    .volonteer-description {
+        max-width: 323px;
+        padding-top: 0px;
+        padding-left: 568px;
+    }
+
+    .news-block {
+        max-width: 619px;
+        padding-top: 36px;
+    }
+
+    .news-item__pic {
+        margin: 0 auto;
+        padding-top: 18px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .about-block {
+        margin: 0 auto;
+        max-width: 481px;
+        padding-top: 48px;
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__1366.jpg) no-repeat;
+        width: 100%;
+        height: 555px;
+    }
+
+    .image-block {
+        max-width: 350px;
+        height: 250px;
+        padding-top: 100px;
+        padding-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-block__text {
+        margin-left: 10px;
+        width: 250px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .image-paw__svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-block {
+        max-width: 804px;
+        margin: 0 auto;
+        padding-top: 24px;
+        max-height: 61px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-basis: auto;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-links li {
+        padding-right: 21px;
+    }
+
+    .footer-links li:nth-child(5) {
+        padding-right: 0px;
+    }
+
+    .footer-links li:nth-child(6) {
+        padding-top: 24px;
+    }
+    
+    .footer-links li:last-child {
+        padding-right: 0px;
+        padding-top: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    
+    .burger {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        height: 40px;
+        width: 40px;
+        top: -2px;
+        right: 315px;
+    }
+
+    .burger-line {
+        position: absolute;
+        top: 8;
+        width: 30px;
+        height: 4px;
+        background-color: black;
+    }
+
+    .first {
+        left: 5px;
+        top: 10px;
+    }
+
+    .second, .third {
+        left: 5px;
+        top: 20px;
+    }
+
+    .fourth {
+        left: 5px;
+        top: 30px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__body {
+        max-width: 501px;
+        padding-top: 24px;
+        justify-content: flex-end;
+    }
+
+    .dog__bcg {
+        height: 385px;
+        padding-left: 250px;
+    }
+
+    .cat__bcg {
+        width: 235px;
+        height: 222px;
+        top: 256px;
+        padding-left: 302px;
+    }
+
+    .container {
+        max-width: 548px;
+    }
+
+    .save-title {   
+        font-size: 42px;
+        line-height: 51px;
+    }
+
+    .save-title__description {
+        margin: 0px 0px;
+        max-width: 311px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .save-title__goal {
+        margin: 0px 0px;
+        max-width: 311px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .save-title__help {
+        margin: 0px 0px;
+        max-width: 204px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .main {
+        margin: 0 auto;
+    }
+
+    .save {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    .container__body {
+        padding-top: 12px;
+    }
+
+    /* HEART SECTION */
+
+    .heart {
+        margin-top: 42px;
+    }
+
+    .heart-container {
+        display: flex;
+    }
+
+    .heart-block {
+        padding-top: 24px;
+        padding-bottom: 215px;
+    }
+
+    .square {
+        max-width: 204px;
+        max-height: 273px;
+        margin: 0 auto;
+    }
+
+    .circle-big {
+        width: 273px;
+        height: 273px;
+        margin-left: 66px;
+    }
+
+    .circle-big::after {
+        width: 120%;
+        background: url(../img/circle-dog__768.png) no-repeat;
+        left: 83px;
+        top: 16px;
+    }
+
+    .circle-small::after {
+        background: url(../img/circle-cat__768.png) no-repeat;
+        left: 4px;
+        top: 4px;
+    }
+
+    .circle-small {
+        width: 129px;
+        height: 129px;
+        margin-left: 226px;
+        margin-top: 179px;
+    }
+
+    .heart-description {
+        max-width: 264px;
+        padding-left: 394px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .heart-title {
+        font-size: 20px;
+    }
+    
+    .heart-text__upper {
+        font-size: 14px;
+    }
+
+    .heart-text__bottom {
+        font-size: 14px;
+    }
+
+    .help-container {
+        max-width: 472px;
+        max-height: 468px;
+        margin: 0 auto;
+    }
+
+    .help-title {
+        font-size: 24px;
+    }
+
+    .help-block {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 26px;
+        grid-row-gap: 32px;
+        padding-top: 32px;
+    }
+
+    .home {
+        padding-top: 94px;
+    }
+
+
+    .home-block {
+        padding-top: 40px;
+        max-width: 426px;
+        grid-column-gap: 47px;
+        padding-left: 50px;
+    }
+
+    .home-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 44px;
+        max-width: 368px;
+    }
+
+    .home__separator {
+        height: 100px;
+    }
+
+    .block__separator::before {
+        width: 40%;
+    }
+
+    .block__separator::after {
+        width: 40%;
+    }
+
+    .help-social {
+        max-width: 501px;
+        height: 150px;
+    }
+
+    .help-block__link {
+        padding-left: 135px;
+    }
+
+    .help-social__block {
+        padding-top: 48px;
+        height: 60px;
+    }
+
+    .help-social__text {
+        max-width: 379px;
+        max-height: 60px;
+    }
+
+    .finance-wrapper {
+        margin: 0 auto;
+        height: 655px;
+    }
+
+    .finance__separator {
+        height: 54px;
+    }
+
+    .finance-body {
+        max-width: 501px;
+        height: 545px;
+    }
+
+    .finance-body__title {
+        font-size: 20px;
+    }
+
+    .finance-body__description {
+        max-width: 358px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .finance-pay {
+        max-width: 237px;
+        max-height: 265px;
+    }
+
+    .finance-pay__title {
+        font-size: 20px;
+    }
+
+    .finance-pay__text {
+        font-size: 14px;
+    }
+
+    .finance-box {
+        max-width: 237px;
+        max-height: 368px;
+    }
+
+    .finance-box__title {
+        font-size: 20px;
+    }
+
+    .finance-box__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .food-wrapper {
+        height: 844px;
+    }
+
+    .food__separator {
+        height: 54px;
+    }
+
+    .food-content {
+        max-width: 398px;
+        padding-top: 24px;
+    }
+
+    .content-feed {
+        max-width: 398px;
+    }
+
+    .content-feed__title {
+        font-size: 20px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-feed__transparent {
+        font-size: 14px;
+    }
+
+    .content-medicine {
+        max-width: 398px;
+    }
+
+    .content-medicine__title {
+        font-size: 20px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-staff {
+        max-width: 398px;
+    }
+
+    .content-staff__title {
+        font-size: 20px;
+    }
+
+    .content-staff__text {
+        font-size: 14px;
+    }
+
+    .car__separator {
+        height: 80px;
+    }
+
+    .car-block {
+        max-width: 481px;
+    }
+
+    .car-block__title {
+        font-size: 24px;
+    }
+
+    .volonteer-wrapper {
+        padding-top: 150px;
+        height: 630px;
+    }
+
+    .volonteer__separator {
+        height: 75px;
+    }
+
+    .circle-big::after {
+        content: "";
+        position: absolute;
+        background: url(../img/little-dog__1024.png) no-repeat;
+        width: 132%;
+        height: 100%;
+        left: 60px;
+        top: 3px;
+        z-index: 1;
+    }
+
+    .square {
+        margin-top: 104px;
+    }
+    
+    .volonteer-description {
+        max-width: 264px;
+        padding-top: 0px;
+        padding-left: 468px;
+    }
+
+    .news-block {
+        max-width: 450px;
+        padding-top: 24px;
+    }
+
+    .news-block__title {
+        font-size: 24px;
+    }
+
+    .news-block__item {
+        padding: 25px 0px 20px 0px;
+    }
+
+    .news-item__pic {
+        margin: 0 auto;
+        padding-top: 35px;
+        width: 104px;
+        height: 104px;
+    }
+
+    .about-block {
+        margin: 0 auto;
+        max-width: 446px;
+        padding-top: 48px;
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__1269.png) no-repeat;
+        width: 100%;
+        height: 555px;
+    }
+
+    .image-block {
+        max-width: 350px;
+        height: 250px;
+        padding-top: 100px;
+        padding-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-block__text {
+        margin-left: 10px;
+        width: 250px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .image-paw__svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-block {
+        max-width: 648px;
+        margin: 0 auto;
+        padding-top: 24px;
+        max-height: 91px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-basis: auto;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-links li:nth-child(1) {
+        padding-right: 34px;
+    }
+
+    .footer-links li:nth-child(2) {
+        padding-right: 41px;
+    }
+
+    .footer-links li:nth-child(3) {
+        padding-right: 0px;
+    }
+
+    .footer-links li:nth-child(4) {
+        padding-right: 118px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(5) {
+        padding-right: 109px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(6) {
+        padding-top: 20px;
+        padding-right: 90px;
+    }
+    
+    .footer-links li:last-child {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 640px) {
+
+    .header__body {
+        max-width: 501px;
+        padding-top: 24px;
+        justify-content: flex-end;
+    }
+
+    .burger {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        height: 40px;
+        width: 40px;
+        top: -2px;
+        right: 315px;
+    }
+
+    .burger-line {
+        position: absolute;
+        top: 8;
+        width: 30px;
+        height: 4px;
+        background-color: black;
+    }
+
+    .first {
+        left: 5px;
+        top: 10px;
+    }
+
+    .second, .third {
+        left: 5px;
+        top: 20px;
+    }
+
+    .fourth {
+        left: 5px;
+        top: 30px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .dog__bcg {
+        height: 357px;
+        right: 0;
+    }
+
+    .cat__bcg {
+        width: 165px;
+        height: 157px;
+        top: 251px;
+        right: 120px;
+    }
+
+    .container {
+        max-width: 548px;
+    }
+
+    .container__body {
+        padding-top: 20px;
+    }
+
+    .save-title {   
+        font-size: 30px;
+        line-height: 36px;
+        top: 0;
+        left: 0;
+    }
+
+    .save-title__description {
+        margin: 0px 0px;
+        max-width: 282px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .save-title__goal {
+        margin: 0px 0px;
+        max-width: 282px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .save-title__help {
+        margin: 0px 0px;
+        max-width: 381px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 50px;
+        padding-top: 152px;
+    }
+
+    .hero__button {
+        width: 194px;
+        height: 30px;
+        margin-left: 140px;
+    }
+
+    .button {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    /* HEART SECTION */
+
+    .heart {
+        margin-top: 47px;
+    }
+
+    .heart-block {
+        padding-top: 16px;
+    }
+
+    .square {
+        max-width: 303px;
+        max-height: 193px;
+        margin: 0 auto;
+    }
+
+    .circle-big {
+        width: 193px;
+        height: 193px;
+        margin-left: 206px;
+    }
+
+    .circle-big::after {
+        width: 120%;
+        background: url(../img/circle-dog__640.png) no-repeat;
+        left: 216px;
+        top: 11px;
+    }
+
+    .circle-small::after {
+        background: url(../img/circle-cat__640.png) no-repeat;
+        left: 3px;
+        top: 3px;
+    }
+
+    .circle-small {
+        width: 91px;
+        height: 91px;
+        margin-left: 318px;
+        margin-top: 126px;
+    }
+
+    .heart-description {
+        margin: 0 auto;
+        max-width: 382px;
+        padding-left: 129px;
+        padding-right: 129px;
+        padding-top: 241px;
+        padding-bottom: 16px;
+    }
+
+    .heart-title {
+        font-size: 16px;
+    }
+    
+    .heart-text__upper {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .heart-text__bottom {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .help-container {
+        max-width: 580px;
+        max-height: 320px;
+        margin: 0 auto;
+    }
+
+    .help-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .help-block {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 26px;
+        grid-row-gap: 16px;
+        padding-top: 34px;
+    }
+
+    .help-block__item {
+        max-width: 142px;
+        max-height: 148px;
+    }
+
+    .block-link {
+        width: 80px;
+        height: 80px;
+    }
+
+    .help-block__img {
+        width: 44px;
+        height: 44px;
+        padding-left: 17px;
+        padding-top: 17px;
+    }
+
+    .home {
+        padding-top: 40px;
+    }
+
+
+    .home-block {
+        padding-top: 24px;
+        max-width: 382px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 32px;
+        padding-left: 30px;
+    }
+
+    .item-title {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .item-text {
+        padding-top: 16px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .home-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 22px;
+        max-width: 300px;
+        padding-top: 16px;
+    }
+
+    .home-container__title {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    .container-card {
+        max-width: 300px;
+        max-height: 613px;
+    }
+
+    .container-card__pic {
+        width: 272px;
+        height: 284px;
+        padding: 14px 14px 12px 14px;
+    }
+
+    .container-card__title {
+        width: 273px;
+        height: 18px;
+        padding-left: 14px;
+        padding-right: 13px;
+        padding-bottom: 6px;
+    }
+
+    .container-card__description {
+        width: 272px;
+        height: 119px;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 25px;
+    }
+
+    .container-card__links {
+        max-width: 242px;
+        max-height: 80px;
+        padding-left: 28px;
+    }
+
+    .container-link__main {
+        font-size: 18px;
+        width: 174px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .container-link__second {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        width: 242px;
+        height: 30px;
+    }
+
+    .container-card__line {
+        width: 272px;
+    }
+
+    .home__separator {
+        height: 70px;
+    }
+
+    .block__separator::before {
+        width: 40%;
+    }
+
+    .block__separator::after {
+        width: 40%;
+    }
+
+    .help-social {
+        max-width: 382px;
+        height: 140px;
+        padding-top: 22px;
+    }
+
+    .help-social__items {
+        margin: 0 auto;
+    }
+
+    .help-block__link {
+        padding-left: 80px;
+    }
+
+    .help-social__block {
+        padding-top: 40px;
+        height: 116px;
+        flex-direction: column;
+    }
+
+    .help-social__text {
+        max-width: 382px;
+        max-height: 60px;
+        font-size: 14px;
+    }
+
+    .help-social__link {
+        width: 32px;
+        height: 32px;
+    }
+
+    .help-social__vk {
+        width: 19px;
+        height: 11px;
+        padding: 9px 6px 8px 5px;
+    }
+
+    .help-social__inst {
+        width: 17px;
+        height: 17px;
+        padding: 5px 6px;
+    }
+
+    .finance-wrapper {
+        margin: 0 auto;
+        height: 790px;
+    }
+
+    .finance__separator {
+        height: 46px;
+    }
+
+    .finance-body {
+        max-width: 437px;
+        height: 638px;
+    }
+
+    .finance-body__title {
+        font-size: 16px;
+    }
+
+    .finance-body__description {
+        margin: 0 auto;
+        width: 382px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .finance-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .finance-pay {
+        width: 382px;
+        height: 267px;
+        margin: 0 auto;
+    }
+
+    .finance-pay__title {
+        font-size: 20px;
+    }
+
+    .finance-pay__text {
+        font-size: 14px;
+        margin: 0 0px;
+    }
+
+    .finance-pay__link {
+        width: 194px;
+        height: 30px;
+        margin-left: 80px;
+    }
+
+    .pay-button {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .finance-box {
+        max-width: 382px;
+        max-height: 160px;
+        padding-top: 32px;
+    }
+
+    .finance-box__title {
+        font-size: 20px;
+    }
+
+    .finance-box__text {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 16px;
+    }
+
+    .food-wrapper {
+        height: 844px;
+    }
+
+    .food__separator {
+        height: 37px;
+    }
+
+    .food-content {
+        max-width: 382px;
+        padding-top: 24px;
+    }
+
+    .content-feed {
+        max-width: 382px;
+    }
+
+    .content-feed__title {
+        font-size: 16px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-feed__transparent {
+        font-size: 14px;
+    }
+
+    .content-medicine {
+        max-width: 382px;
+    }
+
+    .content-medicine__title {
+        font-size: 16px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-staff {
+        max-width: 382px;
+    }
+
+    .content-staff__title {
+        font-size: 16px;
+    }
+
+    .content-staff__text {
+        font-size: 14px;
+    }
+
+    .food-link {
+        margin: 0 auto;
+    }
+
+    .car__separator {
+        height: 42px;
+    }
+
+    .car-block {
+        max-width: 382px;
+    }
+
+    .car-block__title {
+        margin: 0 auto;
+        max-width: 245px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .car-block__text {
+        padding-top: 16px;
+        font-size: 14px;
+    }
+
+    .car__link {
+        margin: 0 auto;
+        width: 194px;
+        height: 30px;
+    }
+
+    .car-button {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .volonteer-wrapper {
+        padding-top: 150px;
+        height: 550px;
+    }
+
+    .volonteer__separator {
+        height: 40px;
+    }
+
+    .circle-big::after {
+        content: "";
+        position: absolute;
+        background: url(../img/little-dog__767.png) no-repeat;
+        width: 132%;
+        height: 100%;
+        left: 200px;
+        top: 2px;
+        z-index: 1;
+    }
+
+    .square {
+        margin-top: 24px;
+    }
+    
+    .volonteer-description {
+        max-width: 482px;
+        padding-top: 200px;
+        padding-left: 129px;
+    }
+
+    .volonteer-title {
+        max-width: 120px;
+        margin: 0 auto;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .volonteer-text {
+        max-width: 482px;
+        padding-top: 16px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .volonteer__link {
+        width: 193px;
+        height: 30px;
+    }
+
+    .volonteer-button {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-left: 150px;
+    }
+
+    .news-block {
+        max-width: 415px;
+        padding-top: 16px;
+    }
+
+    .news-block__title {
+        font-size: 16px;
+    }
+
+    .news-block__item {
+        padding: 25px 0px 20px 0px;
+    }
+
+    .news-item__pic {
+        margin: 0 auto;
+        padding-top: 35px;
+        width: 104px;
+        height: 104px;
+    }
+
+    .news-item__text {
+        max-width: 387px;
+        font-size: 14px;
+    }
+
+    .news-block__link {
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+
+    .news {
+        padding-top: 0px;
+    }
+
+    .about-block {
+        margin: 0 auto;
+        max-width: 382px;
+        padding-top: 32px;
+    }
+
+    .about-title {
+        margin: 0 auto;
+        max-width: 75px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .about-description {
+        font-size: 14px;
+    }
+
+    .about-contacts__title {
+        margin: 0 auto;
+        padding-top: 32px;
+        font-size: 18px;
+    }
+
+    .about-contacts__text {
+        margin: 0 auto;
+        padding-top: 18px;
+        font-size: 14px;
+        line-height: 160%;
+    } 
+
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__768.jpg) no-repeat;
+        width: 100%;
+        height: 416px;
+    }
+
+    .image-block {
+        max-width: 250px;
+        height: 100px;
+        padding-top: 100px;
+        padding-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-block__text {
+        margin-left: 10px;
+        width: 150px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+
+    .image-paw__svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-block {
+        max-width: 382px;
+        margin: 0 auto;
+        padding-top: 24px;
+        max-height: 209px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-basis: auto;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-links li:nth-child(1) {
+        padding-right: 80px;
+    }
+
+    .footer-links li:nth-child(2) {
+        padding-right: 0px;
+    }
+
+    .footer-links li:nth-child(3) {
+        padding-right: 80px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(4) {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(5) {
+        padding-right: 245px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(6) {
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+    
+    .footer-links li:last-child {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 639px) and (min-width: 360px) {
+    .header__body {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 24px;
+        justify-content: flex-end;
+    }
+
+    .burger {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        height: 32px;
+        width: 32px;
+        top: -5px;
+        right: 154px;
+    }
+
+    .burger-line {
+        position: absolute;
+        top: 8;
+        width: 30px;
+        height: 4px;
+        background-color: black;
+    }
+
+    .first {
+        left: 5px;
+        top: 10px;
+    }
+
+    .second, .third {
+        left: 5px;
+        top: 20px;
+    }
+
+    .fourth {
+        left: 5px;
+        top: 30px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .dog__bcg {
+        max-width: 300px;
+        height: 350px;
+        padding-left: 52px;
+    }
+
+    .cat__bcg {
+        width: 165px;
+        height: 157px;
+        top: 251px;
+        right: 50px;
+    }
+
+    .container {
+        max-width: 340px;
+    }
+
+    .container__body {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .save-title {   
+        font-size: 30px;
+        line-height: 36px;
+        top: 0;
+        left: 0;
+    }
+
+    .save-title__description {
+        margin: 0px 0px;
+        max-width: 150px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .save-title__goal {
+        margin: 0px 0px;
+        max-width: 158px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .save-title__help {
+        margin: 0px 0px;
+        max-width: 300px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 72px;
+    }
+
+    .hero__button {
+        width: 194px;
+        height: 30px;
+        margin-left: 55px;
+        margin-right: 43px;
+        margin-top: 25px;
+    }
+
+    .button {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    /* HEART SECTION */
+
+    .heart {
+        margin-top: 28px;
+        max-width: 100%;
+    }
+
+    .heart-block {
+        padding-top: 16px;
+    }
+
+    .square {
+        max-width: 144px;
+        max-height: 193px;
+        margin: 0 auto;
+    }
+
+    .circle-big {
+        width: 193px;
+        height: 193px;
+        margin-left: 46px;
+    }
+
+    .circle-big::after {
+        width: 120%;
+        background: url(../img/circle-dog__640.png) no-repeat;
+        left: 59px;
+        top: 11px;
+    }
+
+    .circle-small::after {
+        background: url(../img/circle-cat__640.png) no-repeat;
+        left: 3px;
+        top: 3px;
+    }
+
+    .circle-small {
+        width: 91px;
+        height: 91px;
+        margin-left: 160px;
+        margin-top: 126px;
+    }
+
+    .heart-description {
+        margin: 0 auto;
+        max-width: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 241px;
+        padding-bottom: 16px;
+    }
+
+    .heart-title {
+        font-size: 16px;
+    }
+    
+    .heart-text__upper {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .heart-text__bottom {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .help-container {
+        max-width: 300px;
+        max-height: 675px;
+        margin: 0 auto;
+        padding-top: 32px;
+        
+    }
+
+    .help-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .help-block {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 16px;
+        grid-row-gap: 24px;
+        padding-top: 24px;
+        max-width: 200px;
+        max-height: 675px;
+    }
+
+    .help-block__item {
+        width: 142px;
+        height: 148px;
+    }
+    
+
+    .help-block__text {
+        max-width: 142px;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    .block-link {
+        width: 80px;
+        height: 80px;
+    }
+
+    .help-block__img {
+        width: 44px;
+        height: 44px;
+        padding-left: 17px;
+        padding-top: 17px;
+    }
+
+    .home {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .home__separator {
+        height: 37px;
+    }
+
+
+    .home-block {
+        padding-top: 24px;
+        max-width: 300px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 32px;
+        padding-left: 30px;
+    }
+
+    .item-title {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .item-text {
+        padding-top: 16px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .home-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 22px;
+        max-width: 300px;
+        padding-top: 16px;
+    }
+
+    .home-container__title {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    .container-card {
+        max-width: 300px;
+        max-height: 613px;
+    }
+
+    .container-card__pic {
+        width: 272px;
+        height: 284px;
+        padding: 14px 14px 12px 14px;
+    }
+
+    .container-card__title {
+        width: 273px;
+        height: 18px;
+        padding-left: 14px;
+        padding-right: 13px;
+        padding-bottom: 6px;
+    }
+
+    .container-card__description {
+        width: 272px;
+        height: 119px;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 25px;
+    }
+
+    .container-card__links {
+        max-width: 242px;
+        max-height: 80px;
+        padding-left: 28px;
+    }
+
+    .container-link__main {
+        font-size: 18px;
+        width: 174px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .container-link__second {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        width: 242px;
+        height: 30px;
+    }
+
+    .container-card__line {
+        width: 272px;
+    }
+
+    .home__separator {
+        height: 70px;
+        margin-top: 0px;
+    }
+
+    .block__separator::before {
+        width: 40%;
+    }
+
+    .block__separator::after {
+        width: 40%;
+    }
+
+    .help-social {
+        max-width: 300px;
+        height: 140px;
+        padding-top: 22px;
+        padding-bottom: 28px;
+    }
+
+    .help-social__items {
+        margin: 0 auto;
+    }
+
+    .help-block__link {
+        padding-left: 40px;
+    }
+
+    .help-social__block {
+        padding-top: 40px;
+        height: 140px;
+        flex-direction: column;
+    }
+
+    .help-social__text {
+        max-width: 300px;
+        max-height: 60px;
+        font-size: 14px;
+    }
+
+    .help-social__link {
+        width: 32px;
+        height: 32px;
+    }
+
+    .help-social__vk {
+        width: 19px;
+        height: 11px;
+        padding: 9px 6px 8px 5px;
+    }
+
+    .help-social__inst {
+        width: 17px;
+        height: 17px;
+        padding: 5px 6px;
+    }
+
+    .finance-wrapper {
+        margin: 0 auto;
+        height: 790px;
+    }
+
+    .finance__separator {
+        height: 37px;
+    }
+
+    .finance__separator::before {
+        width: 40%;
+    }
+    
+    .finance__separator::after {
+        width: 40%;
+    }
+
+    .finance-body {
+        max-width: 350px;
+        height: 734px;
+    }
+
+    .finance-body__title {
+        font-size: 16px;
+    }
+
+    .finance-body__description {
+        margin: 0 auto;
+        width: 350px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .finance-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .finance-pay {
+        width: 350px;
+        height: 267px;
+        margin: 0 auto;
+    }
+
+    .finance-pay__title {
+        padding-left: 60px;
+        font-size: 20px;
+    }
+
+    .finance-pay__text {
+        max-width: 250px;
+        padding-left: 70px;
+        font-size: 14px;
+        margin: 0 0px;
+    }
+
+    .finance-pay__link {
+        width: 194px;
+        height: 30px;
+        margin-left: 70px;
+    }
+
+    .pay-button {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .finance-box {
+        max-width: 350px;
+        max-height: 280px;
+        padding-top: 32px;
+    }
+
+    .finance-box__title {
+        padding-left: 60px;
+        font-size: 20px;
+    }
+
+    .finance-box__text {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 16px;
+    }
+
+    .food-wrapper {
+        height: 1014px;
+    }
+
+    .food__separator {
+        height: 37px;
+    }
+
+    .food-content {
+        max-width: 300px;
+        padding-top: 24px;
+    }
+
+    .content-feed {
+        max-width: 300px;
+    }
+
+    .content-feed__title {
+        font-size: 16px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-feed__transparent {
+        font-size: 14px;
+    }
+
+    .content-medicine {
+        max-width: 300px;
+    }
+
+    .content-medicine__title {
+        font-size: 16px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-staff {
+        max-width: 300px;
+    }
+
+    .content-staff__title {
+        font-size: 16px;
+    }
+
+    .content-staff__text {
+        font-size: 14px;
+    }
+
+    .food-link {
+        margin: 0 auto;
+    }
+
+    .car__separator {
+        height: 42px;
+    }
+
+    .car-block {
+        max-width: 300px;
+    }
+
+    .car-block__title {
+        margin: 0 auto;
+        max-width: 245px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .car-block__text {
+        padding-top: 16px;
+        font-size: 14px;
+    }
+
+    .car__link {
+        margin: 0 auto;
+        width: 194px;
+        height: 30px;
+    }
+
+    .car-button {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .volonteer-wrapper {
+        padding-top: 100px;
+        height: 630px;
+    }
+
+    .volonteer__separator {
+        height: 40px;
+    }
+
+    .circle-big::after {
+        content: "";
+        position: absolute;
+        background: url(../img/little-dog__640.png) no-repeat;
+        width: 132%;
+        height: 100%;
+        left: 40px;
+        top: 2px;
+        z-index: 1;
+    }
+
+    .square {
+        margin-top: 24px;
+    }
+    
+    .volonteer-description {
+        max-width: 300px;
+        padding-top: 180px;
+        padding-left: 30px;
+    }
+
+    .volonteer-title {
+        max-width: 120px;
+        margin: 0 auto;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .volonteer-text {
+        max-width: 300px;
+        padding-top: 16px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .volonteer__link {
+        width: 193px;
+        height: 30px;
+    }
+
+    .volonteer-button {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-left: 50px;
+    }
+
+    .news-block {
+        max-width: 300px;
+        padding-top: 16px;
+    }
+
+    .news-block__title {
+        font-size: 16px;
+    }
+
+    .news-block__item {
+        margin: 0 auto;
+        padding: 25px 0px 20px 0px;
+    }
+
+    .news-item__pic {
+        margin: 0 auto;
+        width: 104px;
+        height: 104px;
+    }
+
+    .news-item__text {
+        max-width: 205px;
+        font-size: 14px;
+    }
+
+    .news-block__link {
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+
+    .news {
+        padding-top: 0px;
+    }
+
+    .about-block {
+        margin: 0 auto;
+        max-width: 300px;
+        padding-top: 32px;
+    }
+
+    .about-title {
+        margin: 0 auto;
+        max-width: 75px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .about-description {
+        font-size: 14px;
+    }
+
+    .about-contacts__title {
+        margin: 0 auto;
+        padding-top: 32px;
+        font-size: 18px;
+    }
+
+    .about-contacts__text {
+        margin: 0 auto;
+        padding-top: 18px;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__640.jpg) no-repeat;
+        width: 100%;
+        height: 267px;
+    }
+
+    .footer-block {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 24px;
+        max-height: 209px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-basis: auto;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-links li:nth-child(1) {
+        padding-right: 80px;
+    }
+
+    .footer-links li:nth-child(2) {
+        padding-right: 0px;
+    }
+
+    .footer-links li:nth-child(3) {
+        padding-right: 80px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(4) {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(5) {
+        padding-right: 245px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(6) {
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    
+    .footer-links li:last-child {
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+    .image-block {
+        max-width: 150px;
+        height: 100px;
+        padding-top: 80px;
+        padding-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-block__text {
+        margin-left: 10px;
+        width: 100px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .image-paw__svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header__body {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 24px;
+        justify-content: flex-end;
+    }
+
+    .burger {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        height: 32px;
+        width: 32px;
+        top: -5px;
+        right: 150px;
+    }
+
+    .burger-line {
+        position: absolute;
+        top: 8;
+        width: 30px;
+        height: 4px;
+        background-color: black;
+    }
+
+    .first {
+        left: 5px;
+        top: 10px;
+    }
+
+    .second, .third {
+        left: 5px;
+        top: 20px;
+    }
+
+    .fourth {
+        left: 5px;
+        top: 30px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .dog__bcg {
+        max-width: 300px;
+        right: 1px;
+        height: 390px;
+    }
+
+    .cat__bcg {
+        width: 165px;
+        height: 157px;
+        top: 251px;
+        left: 100px;
+        padding-left: 0px;
+    }
+
+    .container {
+        max-width: 340px;
+    }
+
+    .container__body {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .save-title {   
+        font-size: 30px;
+        line-height: 36px;
+        top: 0;
+        left: 0;
+    }
+
+    .save-title__description {
+        margin: 0px 0px;
+        max-width: 150px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .save-title__goal {
+        margin: 0px 0px;
+        max-width: 158px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .save-title__help {
+        margin: 0px 0px;
+        max-width: 300px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 72px;
+    }
+
+    .hero__button {
+        width: 194px;
+        height: 30px;
+        margin-left: 55px;
+        margin-right: 43px;
+        margin-top: 25px;
+    }
+
+    .button {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    /* HEART SECTION */
+
+    .heart {
+        margin-top: 28px;
+        max-width: 100%;
+    }
+
+    .heart-block {
+        padding-top: 16px;
+    }
+
+    .square {
+        max-width: 144px;
+        max-height: 193px;
+        margin: 0 auto;
+    }
+
+    .circle-big {
+        width: 193px;
+        height: 193px;
+        margin-left: 46px;
+    }
+
+    .circle-big::after {
+        width: 120%;
+        background: url(../img/circle-dog__640.png) no-repeat;
+        left: 59px;
+        top: 11px;
+    }
+
+    .circle-small::after {
+        background: url(../img/circle-cat__640.png) no-repeat;
+        left: 3px;
+        top: 3px;
+    }
+
+    .circle-small {
+        width: 91px;
+        height: 91px;
+        margin-left: 160px;
+        margin-top: 126px;
+    }
+
+    .heart-description {
+        margin: 0 auto;
+        max-width: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 241px;
+        padding-bottom: 16px;
+    }
+
+    .heart-title {
+        font-size: 16px;
+    }
+    
+    .heart-text__upper {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .heart-text__bottom {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .help-container {
+        max-width: 300px;
+        max-height: 675px;
+        margin: 0 auto;
+        padding-top: 32px;
+        
+    }
+
+    .help-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .help-block {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 16px;
+        grid-row-gap: 24px;
+        padding-top: 24px;
+        max-width: 200px;
+        max-height: 675px;
+    }
+
+    .help-block__item {
+        width: 142px;
+        height: 148px;
+    }
+    
+
+    .help-block__text {
+        max-width: 142px;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    .block-link {
+        width: 80px;
+        height: 80px;
+    }
+
+    .help-block__img {
+        width: 44px;
+        height: 44px;
+        padding-left: 17px;
+        padding-top: 17px;
+    }
+
+    .home {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .home__separator {
+        height: 37px;
+    }
+
+
+    .home-block {
+        padding-top: 24px;
+        max-width: 300px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 32px;
+        padding-left: 30px;
+    }
+
+    .item-title {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .item-text {
+        padding-top: 16px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .home-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 22px;
+        max-width: 300px;
+        padding-top: 16px;
+    }
+
+    .home-container__title {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    .container-card {
+        max-width: 300px;
+        max-height: 613px;
+    }
+
+    .container-card__pic {
+        width: 272px;
+        height: 284px;
+        padding: 14px 14px 12px 14px;
+    }
+
+    .container-card__title {
+        width: 273px;
+        height: 18px;
+        padding-left: 14px;
+        padding-right: 13px;
+        padding-bottom: 6px;
+    }
+
+    .container-card__description {
+        width: 272px;
+        height: 119px;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 25px;
+    }
+
+    .container-card__links {
+        max-width: 242px;
+        max-height: 80px;
+        padding-left: 28px;
+    }
+
+    .container-link__main {
+        font-size: 18px;
+        width: 174px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .container-link__second {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        width: 242px;
+        height: 30px;
+    }
+
+    .container-card__line {
+        width: 272px;
+    }
+
+    .home__separator {
+        height: 70px;
+        margin-top: 0px;
+    }
+
+    .block__separator::before {
+        width: 40%;
+    }
+
+    .block__separator::after {
+        width: 40%;
+    }
+
+    .help-social {
+        max-width: 300px;
+        height: 140px;
+        padding-top: 22px;
+        padding-bottom: 28px;
+    }
+
+    .help-social__items {
+        margin: 0 auto;
+    }
+
+    .help-block__link {
+        padding-left: 40px;
+    }
+
+    .help-social__block {
+        padding-top: 40px;
+        height: 140px;
+        flex-direction: column;
+    }
+
+    .help-social__text {
+        max-width: 300px;
+        max-height: 60px;
+        font-size: 14px;
+    }
+
+    .help-social__link {
+        width: 32px;
+        height: 32px;
+    }
+
+    .help-social__vk {
+        width: 19px;
+        height: 11px;
+        padding: 9px 6px 8px 5px;
+    }
+
+    .help-social__inst {
+        width: 17px;
+        height: 17px;
+        padding: 5px 6px;
+    }
+
+    .finance-wrapper {
+        margin: 0 auto;
+        height: 790px;
+    }
+
+    .finance__separator {
+        height: 37px;
+    }
+
+    .finance__separator::before {
+        width: 40%;
+    }
+    
+    .finance__separator::after {
+        width: 40%;
+    }
+
+    .finance-body {
+        max-width: 350px;
+        height: 734px;
+    }
+
+    .finance-body__title {
+        font-size: 16px;
+    }
+
+    .finance-body__description {
+        margin: 0 auto;
+        width: 320px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .finance-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .finance-pay {
+        width: 320px;
+        height: 267px;
+        margin: 0 auto;
+    }
+
+    .finance-pay__title {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+
+    .finance-pay__text {
+        padding-left: 50px;
+        font-size: 14px;
+        margin: 0 0px;
+    }
+
+    .finance-pay__link {
+        width: 194px;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+    .pay-button {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .finance-box {
+        max-width: 350px;
+        max-height: 280px;
+        padding-top: 32px;
+    }
+
+    .finance-box__title {
+        padding-left: 50px;
+        font-size: 20px;
+    }
+
+    .finance-box__text {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 16px;
+    }
+
+    .food-wrapper {
+        height: 1014px;
+    }
+
+    .food__separator {
+        height: 37px;
+    }
+
+    .food-content {
+        max-width: 300px;
+        padding-top: 24px;
+    }
+
+    .content-feed {
+        max-width: 300px;
+    }
+
+    .content-feed__title {
+        font-size: 16px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-feed__transparent {
+        font-size: 14px;
+    }
+
+    .content-medicine {
+        max-width: 300px;
+    }
+
+    .content-medicine__title {
+        font-size: 16px;
+    }
+
+    .content-feed__text {
+        font-size: 14px;
+    }
+
+    .content-staff {
+        max-width: 300px;
+    }
+
+    .content-staff__title {
+        font-size: 16px;
+    }
+
+    .content-staff__text {
+        font-size: 14px;
+    }
+
+    .food-link {
+        margin: 0 auto;
+    }
+
+    .car__separator {
+        height: 42px;
+    }
+
+    .car-block {
+        max-width: 300px;
+    }
+
+    .car-block__title {
+        margin: 0 auto;
+        max-width: 245px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .car-block__text {
+        padding-top: 16px;
+        font-size: 14px;
+    }
+
+    .car__link {
+        margin: 0 auto;
+        width: 194px;
+        height: 30px;
+    }
+
+    .car-button {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .volonteer-wrapper {
+        padding-top: 100px;
+        height: 630px;
+    }
+
+    .volonteer__separator {
+        height: 40px;
+    }
+
+    .circle-big::after {
+        content: "";
+        position: absolute;
+        background: url(../img/little-dog__640.png) no-repeat;
+        width: 132%;
+        height: 100%;
+        left: 40px;
+        top: 2px;
+        z-index: 1;
+    }
+
+    .square {
+        margin-top: 24px;
+    }
+    
+    .volonteer-description {
+        max-width: 300px;
+        padding-top: 180px;
+        padding-left: 30px;
+    }
+
+    .volonteer-title {
+        max-width: 120px;
+        margin: 0 auto;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .volonteer-text {
+        max-width: 300px;
+        padding-top: 16px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .volonteer__link {
+        width: 193px;
+        height: 30px;
+    }
+
+    .volonteer-button {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-left: 50px;
+    }
+
+    .news-block {
+        max-width: 300px;
+        padding-top: 16px;
+    }
+
+    .news-block__title {
+        font-size: 16px;
+    }
+
+    .news-block__item {
+        margin: 0 auto;
+        padding: 25px 0px 20px 0px;
+    }
+
+    .news-item__pic {
+        margin: 0 auto;
+        width: 104px;
+        height: 104px;
+    }
+
+    .news-item__text {
+        max-width: 205px;
+        font-size: 14px;
+    }
+
+    .news-block__link {
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+
+    .news {
+        padding-top: 0px;
+    }
+
+    .about-block {
+        margin: 0 auto;
+        max-width: 300px;
+        padding-top: 32px;
+    }
+
+    .about-title {
+        margin: 0 auto;
+        max-width: 75px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .about-description {
+        font-size: 14px;
+    }
+
+    .about-contacts__title {
+        margin: 0 auto;
+        padding-top: 32px;
+        font-size: 18px;
+    }
+
+    .about-contacts__text {
+        margin: 0 auto;
+        padding-top: 18px;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    
+    .image-wrapper {
+        margin: 0 auto;
+        background: url(../img/footer-dog__640.jpg) no-repeat;
+        width: 100%;
+        height: 267px;
+    }
+
+    .footer-block {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 24px;
+        max-height: 209px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-basis: auto;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-links li:nth-child(1) {
+        padding-right: 80px;
+    }
+
+    .footer-links li:nth-child(2) {
+        padding-right: 0px;
+    }
+
+    .footer-links li:nth-child(3) {
+        padding-right: 80px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(4) {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(5) {
+        padding-right: 230px;
+        padding-top: 20px;
+    }
+
+    .footer-links li:nth-child(6) {
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    
+    .footer-links li:last-child {
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+    .image-block {
+        max-width: 150px;
+        height: 100px;
+        padding-top: 80px;
+        padding-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-block__text {
+        margin-left: 10px;
+        width: 100px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .image-paw__svg {
+        width: 40px;
+        height: 40px;
+    }
+}
