@@ -954,3 +954,144 @@
 }
 
 /* FINANCE SECTION END */
+
+/* FOOD SECTION START */
+
+.food-wrapper {
+    margin: 0 auto;
+    padding-top: 36px;
+}
+
+.food__separator {
+    background: url(../img/icon/food-main-svg.svg) no-repeat;
+    height: 126px;
+    margin: 0 auto;
+}
+
+.food-block__separator {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: contain;
+}
+
+.food__separator::before {
+    content: "";
+    position: absolute;
+    width: 43%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background-color: #EEBF3A;
+}
+
+.food__separator::after {
+    content: "";
+    position: absolute;
+    width: 43%;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    background-color: #EEBF3A;
+}
+
+.food-content {
+    max-width: 678px;
+    max-height: 690px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-feed {
+    max-width: 660px;
+}
+
+.content-feed__title {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.content-feed__text {
+    margin: 0 auto;
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content-feed__transparent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: gray;
+}
+
+.content-medicine {
+    max-width: 660px;
+    padding-top: 40px;
+}
+
+.content-medicine__title {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.content-medicine__text {
+    margin: 0 auto;
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content-staff {
+    padding-top: 40px;
+    max-width: 660px;
+}
+
+.content-staff__title {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.content-staff__text {
+    margin: 0 auto;
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.food-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    align-items: center;
+    text-decoration-line: underline;
+    transition: .2s;
+    color: #AD7F00;
+}
+
+.food-link:hover {
+    color: #523C00;
+}
+
+.food-link:active {
+    color: #F6B400;
+}
+
+/* FOOD SECTION END */
