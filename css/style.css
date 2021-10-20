@@ -1534,3 +1534,107 @@
 }
 
 /* ABOUT SECTION END */
+
+/* IMAGE */
+.image {
+    padding-top: 54px;
+    max-width: 100%;
+}
+
+.image-wrapper {
+    margin: 0 auto;
+    background: url(../img/footer-dog.jpg) no-repeat;
+    max-width: 100%;
+    height: 741px;
+}
+
+.image-block {
+    max-width: 435px;
+    padding-top: 303px;
+    padding-left: 134px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-block__text {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+/* FOOTER SECTION START */
+
+.footer-wrapper {
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.footer-block {
+    max-width: 1146px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footer-links {
+    display: flex;
+    margin: 0 auto;
+    flex-basis: auto;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links a:hover {
+    color: orange;
+    transition: .2s;
+}
+
+.footer-links a:active {
+    color: gray;
+    transition: .2s;
+}
+
+
+.footer-links li {
+    padding-right: 40px;
+}
+
+.footer-links li:nth-child(5) {
+    padding-right: 122px;
+}
+
+.footer-links li:last-child {
+    padding-right: 0px;
+}
+
+.footer-link__item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #474747;
+    text-align: center;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.footer-autor {
+    max-width: 184px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.footer-autor__text {
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    align-items: center;
+    color: #B3B3B3;
+}
+
+/* FOOTER SECTION END */
