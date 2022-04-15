@@ -40,6 +40,10 @@
     max-width: 635px;
 }
 
+#toggle {
+    display: none;
+}
+
 .nav-menu {
     display: flex;
     margin: 0 auto;
@@ -80,6 +84,9 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+
+  /*  */
 
 /* HEADER SOCIAL ICONS */
 

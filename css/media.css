@@ -100,7 +100,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .image-block__text {
         margin-left: 10px;
         width: 350px;
@@ -415,7 +415,7 @@
     .square {
         margin-top: 24px;
     }
-    
+
     .volonteer-description {
         max-width: 323px;
         padding-top: 0px;
@@ -456,7 +456,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .image-block__text {
         margin-left: 10px;
         width: 250px;
@@ -500,7 +500,7 @@
     .footer-links li:nth-child(6) {
         padding-top: 24px;
     }
-    
+
     .footer-links li:last-child {
         padding-right: 0px;
         padding-top: 24px;
@@ -509,42 +509,109 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    
-    .burger {
-        display: flex;
-        justify-content: flex-start;
+
+    #toggle {
+        display: none;
+    }
+
+    /**
+        Hamburger
+      **/
+    .hamburger {
+        position: fixed;
+        top: 5em;
+        left: 25%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .hamburger div {
         position: relative;
-        height: 40px;
-        width: 40px;
-        top: -2px;
-        right: 315px;
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: #f8982b;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
     }
 
-    .burger-line {
-        position: absolute;
-        top: 8;
-        width: 30px;
-        height: 4px;
-        background-color: black;
+    /**
+      Nav Styles
+      **/
+    .header__nav {
+        z-index: 1;
+        position: fixed;
+        width: 50%;
+        height: 30%;
+        background-color: #fdfdff;
+        top: -100%;
+        left: 50;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
     }
 
-    .first {
-        left: 5px;
-        top: 10px;
-    }
-
-    .second, .third {
-        left: 5px;
-        top: 20px;
-    }
-
-    .fourth {
-        left: 5px;
-        top: 30px;
+    .nav-menu {
+        position: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 40px;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
     }
 
     .header__nav {
-        display: none;
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .nav-menu li {
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+
+    .nav-menu li:nth-child(2) {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu li:last-child {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu__item {
+        font-size: 25px;
+    }
+
+    /**
+      Animations
+      **/
+    #toggle:checked+.hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+    }
+
+    #toggle:checked+.hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+
+    #toggle:checked+.hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+    }
+
+    #toggle:checked+.hamburger+.header__nav {
+        top: 0;
+        transform: scale(1);
     }
 
     .header__body {
@@ -569,7 +636,7 @@
         max-width: 548px;
     }
 
-    .save-title {   
+    .save-title {
         font-size: 42px;
         line-height: 51px;
     }
@@ -665,7 +732,7 @@
     .heart-title {
         font-size: 20px;
     }
-    
+
     .heart-text__upper {
         font-size: 14px;
     }
@@ -881,7 +948,7 @@
     .square {
         margin-top: 104px;
     }
-    
+
     .volonteer-description {
         max-width: 264px;
         padding-top: 0px;
@@ -930,7 +997,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .image-block__text {
         margin-left: 10px;
         width: 250px;
@@ -989,7 +1056,7 @@
         padding-top: 20px;
         padding-right: 90px;
     }
-    
+
     .footer-links li:last-child {
         padding-right: 0px;
         padding-top: 20px;
@@ -1005,41 +1072,108 @@
         justify-content: flex-end;
     }
 
-    .burger {
-        display: flex;
-        justify-content: flex-start;
+    #toggle {
+        display: none;
+    }
+
+    /**
+        Hamburger
+      **/
+    .hamburger {
+        position: fixed;
+        top: 5em;
+        left: 25%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .hamburger div {
         position: relative;
-        height: 40px;
-        width: 40px;
-        top: -2px;
-        right: 315px;
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: #f8982b;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
     }
 
-    .burger-line {
-        position: absolute;
-        top: 8;
-        width: 30px;
-        height: 4px;
-        background-color: black;
+    /**
+      Nav Styles
+      **/
+    .header__nav {
+        z-index: 1;
+        position: fixed;
+        width: 50%;
+        height: 30%;
+        background-color: #fdfdff;
+        top: -100%;
+        left: 50;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
     }
 
-    .first {
-        left: 5px;
-        top: 10px;
-    }
-
-    .second, .third {
-        left: 5px;
-        top: 20px;
-    }
-
-    .fourth {
-        left: 5px;
-        top: 30px;
+    .nav-menu {
+        position: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 40px;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
     }
 
     .header__nav {
-        display: none;
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .nav-menu li {
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+
+    .nav-menu li:nth-child(2) {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu li:last-child {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu__item {
+        font-size: 15px;
+    }
+
+    /**
+      Animations
+      **/
+    #toggle:checked+.hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+    }
+
+    #toggle:checked+.hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+
+    #toggle:checked+.hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+    }
+
+    #toggle:checked+.hamburger+.header__nav {
+        top: 0;
+        transform: scale(1);
     }
 
     .dog__bcg {
@@ -1062,7 +1196,7 @@
         padding-top: 20px;
     }
 
-    .save-title {   
+    .save-title {
         font-size: 30px;
         line-height: 36px;
         top: 0;
@@ -1160,7 +1294,7 @@
     .heart-title {
         font-size: 16px;
     }
-    
+
     .heart-text__upper {
         font-size: 14px;
         padding-top: 16px;
@@ -1539,7 +1673,7 @@
     .square {
         margin-top: 24px;
     }
-    
+
     .volonteer-description {
         max-width: 482px;
         padding-top: 200px;
@@ -1634,7 +1768,7 @@
         padding-top: 18px;
         font-size: 14px;
         line-height: 160%;
-    } 
+    }
 
     .image-wrapper {
         margin: 0 auto;
@@ -1652,7 +1786,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .image-block__text {
         margin-left: 10px;
         width: 150px;
@@ -1712,7 +1846,7 @@
         padding-top: 20px;
         padding-right: 0px;
     }
-    
+
     .footer-links li:last-child {
         padding-right: 0px;
         padding-top: 20px;
@@ -1728,41 +1862,108 @@
         justify-content: flex-end;
     }
 
-    .burger {
-        display: flex;
-        justify-content: flex-start;
+    #toggle {
+        display: none;
+    }
+
+    /**
+        Hamburger
+      **/
+    .hamburger {
+        position: fixed;
+        top: 5em;
+        left: 25%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .hamburger div {
         position: relative;
-        height: 32px;
-        width: 32px;
-        top: -5px;
-        right: 154px;
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: #f8982b;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
     }
 
-    .burger-line {
-        position: absolute;
-        top: 8;
-        width: 30px;
-        height: 4px;
-        background-color: black;
+    /**
+      Nav Styles
+      **/
+    .header__nav {
+        z-index: 1;
+        position: fixed;
+        width: 50%;
+        height: 30%;
+        background-color: #fdfdff;
+        top: -100%;
+        left: 50;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
     }
 
-    .first {
-        left: 5px;
-        top: 10px;
-    }
-
-    .second, .third {
-        left: 5px;
-        top: 20px;
-    }
-
-    .fourth {
-        left: 5px;
-        top: 30px;
+    .nav-menu {
+        position: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 40px;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
     }
 
     .header__nav {
-        display: none;
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .nav-menu li {
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+
+    .nav-menu li:nth-child(2) {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu li:last-child {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu__item {
+        font-size: 15px;
+    }
+
+    /**
+      Animations
+      **/
+    #toggle:checked+.hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+    }
+
+    #toggle:checked+.hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+
+    #toggle:checked+.hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+    }
+
+    #toggle:checked+.hamburger+.header__nav {
+        top: 0;
+        transform: scale(1);
     }
 
     .dog__bcg {
@@ -1787,7 +1988,7 @@
         padding-left: 10px;
     }
 
-    .save-title {   
+    .save-title {
         font-size: 30px;
         line-height: 36px;
         top: 0;
@@ -1890,7 +2091,7 @@
     .heart-title {
         font-size: 16px;
     }
-    
+
     .heart-text__upper {
         font-size: 14px;
         padding-top: 16px;
@@ -1906,7 +2107,7 @@
         max-height: 675px;
         margin: 0 auto;
         padding-top: 32px;
-        
+
     }
 
     .help-title {
@@ -1928,7 +2129,7 @@
         width: 142px;
         height: 148px;
     }
-    
+
 
     .help-block__text {
         max-width: 142px;
@@ -2113,7 +2314,7 @@
     .finance__separator::before {
         width: 40%;
     }
-    
+
     .finance__separator::after {
         width: 40%;
     }
@@ -2300,7 +2501,7 @@
     .square {
         margin-top: 24px;
     }
-    
+
     .volonteer-description {
         max-width: 300px;
         padding-top: 180px;
@@ -2396,7 +2597,7 @@
         font-size: 14px;
         line-height: 160%;
     }
-    
+
     .image-wrapper {
         margin: 0 auto;
         background: url(../img/footer-dog__640.jpg) no-repeat;
@@ -2449,7 +2650,7 @@
         padding-left: 60px;
         padding-right: 50px;
     }
-    
+
     .footer-links li:last-child {
         padding-left: 20px;
         padding-right: 0px;
@@ -2465,7 +2666,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .image-block__text {
         margin-left: 10px;
         width: 100px;
@@ -2490,42 +2691,111 @@
         justify-content: flex-end;
     }
 
-    .burger {
-        display: flex;
-        justify-content: flex-start;
+    #toggle {
+        display: none;
+    }
+
+    /**
+        Hamburger
+      **/
+    .hamburger {
+        position: fixed;
+        top: 5em;
+        left: 25%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .hamburger div {
         position: relative;
-        height: 32px;
-        width: 32px;
-        top: -5px;
-        right: 150px;
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: #f8982b;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
     }
 
-    .burger-line {
-        position: absolute;
-        top: 8;
-        width: 30px;
-        height: 4px;
-        background-color: black;
+    /**
+      Nav Styles
+      **/
+    .header__nav {
+        z-index: 1;
+        position: fixed;
+        width: 50%;
+        height: 30%;
+        background-color: #fdfdff;
+        top: -100%;
+        left: 50;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
     }
 
-    .first {
-        left: 5px;
-        top: 10px;
-    }
-
-    .second, .third {
-        left: 5px;
-        top: 20px;
-    }
-
-    .fourth {
-        left: 5px;
-        top: 30px;
+    .nav-menu {
+        position: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 40px;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
     }
 
     .header__nav {
-        display: none;
+        text-align: left;
+        margin-left: 25%;
     }
+
+    .nav-menu li {
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+
+    .nav-menu li:nth-child(2) {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu li:last-child {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .nav-menu__item {
+        font-size: 15px;
+    }
+
+    /**
+      Animations
+      **/
+    #toggle:checked+.hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+    }
+
+    #toggle:checked+.hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+
+    #toggle:checked+.hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+    }
+
+    #toggle:checked+.hamburger+.header__nav {
+        top: 0;
+        transform: scale(1);
+    }
+
+
 
     .dog__bcg {
         max-width: 300px;
@@ -2550,7 +2820,7 @@
         padding-left: 10px;
     }
 
-    .save-title {   
+    .save-title {
         font-size: 30px;
         line-height: 36px;
         top: 0;
@@ -2653,7 +2923,7 @@
     .heart-title {
         font-size: 16px;
     }
-    
+
     .heart-text__upper {
         font-size: 14px;
         padding-top: 16px;
@@ -2669,7 +2939,7 @@
         max-height: 675px;
         margin: 0 auto;
         padding-top: 32px;
-        
+
     }
 
     .help-title {
@@ -2691,7 +2961,7 @@
         width: 142px;
         height: 148px;
     }
-    
+
 
     .help-block__text {
         max-width: 142px;
@@ -2876,7 +3146,7 @@
     .finance__separator::before {
         width: 40%;
     }
-    
+
     .finance__separator::after {
         width: 40%;
     }
@@ -3062,7 +3332,7 @@
     .square {
         margin-top: 24px;
     }
-    
+
     .volonteer-description {
         max-width: 300px;
         padding-top: 180px;
@@ -3158,7 +3428,7 @@
         font-size: 14px;
         line-height: 160%;
     }
-    
+
     .image-wrapper {
         margin: 0 auto;
         background: url(../img/footer-dog__640.jpg) no-repeat;
@@ -3211,7 +3481,7 @@
         padding-left: 60px;
         padding-right: 50px;
     }
-    
+
     .footer-links li:last-child {
         padding-left: 20px;
         padding-right: 0px;
@@ -3227,7 +3497,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .image-block__text {
         margin-left: 10px;
         width: 100px;
